@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hussain | Premium Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="glass">
+  <h1 class="logo">PORTFOLIO</h1>
+  <nav id="nav">
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#about">Education</a>
+    <a href="#about">Resume</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  
+  </nav>
+  <button id="menuBtn">☰</button>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h2 class="gradient-text">Hi, I'm Hussain C K</h2>
+    <p>Graphic & Web Designer & Flutter Developer</p>
+    <a href="#projects" class="btn">Explore Work</a>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <h1>About Me</h1>
+  <p>I am a Graphic Designer, Web Designer, and Flutter Developer passionate about creating modern,
+     responsive, and visually engaging digital experiences. I combine creative design with technical 
+     skills to build high-quality web and mobile applications that deliver both beauty and performance.</p>
+</section>
+
+<section class="section" id="eduction">
+  <h1>Eductions</h1>
+  <div class="card glass">
+    <h2>Degree</h2>
+    <p>BCA(Bachelore Computer Application)</p>
+    <p>Naher Arts & Science College Kanhirode, Kannur</p>
+    <p>2020 - 2023 Batch</p>
+  </div>
+  <div class="card glass">
+    <h2>Dipolma</h2>
+    <p>Flutter Developer</p>
+    <p>Luminar Technolab, Kochi</p>
+    <p>2024 Batch</p>
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <h1>Featured Work</h1>
+  <div class="projects">
+    <div class="card glass" onclick="openModal('Dashboard UI - Premium analytics interface')">
+      <h2>Graphic Designer</h2>
+      <p>Brand Identity Design | Social Media Creatives | Product Packaging Design | Poster & Advertisement Design</p>
+    </div>
+    <div class="card glass" onclick="openModal('Flutter App - Clean mobile experience')">
+      <h2>Flutter App</h2>
+      <p>Mobile design | Quiz App | Dashboard App | E-commerce Mobile App</p>
+    </div>
+    <div class="card glass" onclick="openModal('E-commerce UI - Smooth shopping flow')">
+      <h2>Web Designer</h2>
+      <p>Portfolio Website Design | Business Website UI | E-commerce UI Design | Dashboard UI Design</p>
+    </div>
+  </div>
+</section>
+
+<!-- Modal -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <p id="modalText"></p>
+  </div>
+</div>
+
+<section class="section" id="contact">
+  <h2>Contact</h2>
+  <p>Phone Number : +91-9746289109</p>
+  <p>Email Id : hussainbold12@gmail.com</p>
+  <p>LinkedIn : https://www.linkedin.com/in/hussain-ck-9a589b27b/?locale=en</p>
+  <button onclick="toggleTheme()" class="btn">Toggle Theme</button>
+</section>
+
+<footer class="glass">
+  <p>© 2026 Hussain Premium Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
